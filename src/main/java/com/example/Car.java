@@ -8,6 +8,11 @@ public class Car {
 		this.speed += 500;
 	}
 	
+	public void brake() {
+		this.speed = 0;
+	}
+	
+	
 	
 	public Integer getSpeed() {
 		return speed;
