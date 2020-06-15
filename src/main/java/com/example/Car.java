@@ -5,7 +5,7 @@ public class Car {
 	private String color;
 	
 	public void run() {
-		this.speed += 5;
+		this.speed += 500;
 	}
 	
 	
