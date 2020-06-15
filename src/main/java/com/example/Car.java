@@ -4,6 +4,11 @@ public class Car {
 	private Integer speed;
 	private String color;
 	
+	public void run() {
+		this.speed += 5;
+	}
+	
+	
 	public Integer getSpeed() {
 		return speed;
 	}
