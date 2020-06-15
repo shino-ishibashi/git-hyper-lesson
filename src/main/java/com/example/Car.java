@@ -14,6 +14,16 @@ public class Car {
 	
 	
 	
+	
+	
+	
+	
+	
+	
+	public void yellow() {
+		this.color = "yellow";
+	}
+	
 	public Integer getSpeed() {
 		return speed;
 	}
